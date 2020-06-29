@@ -18,4 +18,4 @@ RUN chmod -R a+rx /usr/local/bin
 USER appuser
 WORKDIR ${HOMEDIR}
 
-ENTRYPOINT ["bash"]
+ENTRYPOINT ["multi_fasta_exec.py"]
